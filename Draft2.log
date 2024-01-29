@@ -1,0 +1,27 @@
+Circuit: * C:\Users\komen\Documents\LTspiceXVII\Draft2.asc
+
+.OP point found by inspection.
+
+t1=0.001 FROM 0.001 TO 0.002
+phase: 360*(t2/t1)=32.1472
+vmax: MAX(v(in))=4.99981 FROM 0 TO 0.01
+t2=8.9298e-005 FROM 0.001 TO 0.0010893
+
+
+Date: Tue Nov 08 22:13:31 2022
+Total elapsed time: 0.096 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2082
+traniter = 2082
+tranpoints = 1042
+accept = 1042
+rejected = 0
+matrix size = 3
+fillins = 0
+solver = Normal
+Matrix Compiler1: 50 bytes object code size  0.0/0.0/[0.0]
+Matrix Compiler2: off  [0.0]/0.0/0.0
+
